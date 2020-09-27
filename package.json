@@ -2,13 +2,14 @@
   "name": "react-photo-editor",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/react-photo-editor.js",
-  "module": "dist/react-photo-editor.esm.js",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
   "directories": {
     "example": "example"
   },
   "scripts": {
-    "build": "rollup --config"
+    "build": "rollup -w --config"
   },
   "repository": {
     "type": "git",

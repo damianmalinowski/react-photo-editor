@@ -16,7 +16,13 @@ export const AddNumberComponent: React.FC<{
         <b>+</b>
         <span>{props.b}</span>
       </div>
-      <h1>{result}</h1>
+      <h1
+        style={{
+          color: "blue",
+        }}
+      >
+        {result}
+      </h1>
     </div>
   );
 };
